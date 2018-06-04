@@ -1,3 +1,10 @@
+# Kernel Parameters
+# inst.ks=https://raw.githubusercontent.com/<user>/<projec>t/<TOKEN>/file
+# noipv6 ip=dhcp ksdevice=<devname> ifname=<devname>:FF:FF:FF:FF:FF:FF nicdelay=5
+
+# GitHub Raw
+# If you want to use github, go to URL https://rawgit.com/ to convert into raw version
+
 #version=DEVEL
 # System authorization information
 auth --enableshadow --passalgo=sha512
