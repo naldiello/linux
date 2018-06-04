@@ -36,7 +36,7 @@ user --groups=wheel --name=jSysAdmin --password=$6$4jK58plUSbZ7Wro9$zyfgt5Pfjg/I
 bootloader --append=" crashkernel=auto" --location=mbr --boot-drive=sda
 
 # Partition clearing information
-clearpart --none --initlabel
+clearpart --all --drive=sda --initlabel
 
 # Disk partitioning information
 part /boot --fstype="xfs" --ondisk=sda --size=500 --label=boot
