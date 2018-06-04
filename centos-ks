@@ -5,11 +5,11 @@ auth --enableshadow --passalgo=sha512
 # Use network installation
 url --url="https://mirrors.kernel.org/centos/7/os/x86_64"
 
-# Use graphical install
-graphical
+# Use (graphical/text) install
+text
 
 # Run the Setup Agent on first boot
-firstboot --enable
+firstboot --disable
 ignoredisk --only-use=sda
 
 # Keyboard layouts
