@@ -53,8 +53,6 @@ eula --agreed
 %packages
 @^minimal
 @core
-ntp
-vim
 kexec-tools
 
 %end
