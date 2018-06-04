@@ -47,6 +47,9 @@ logvol swap  --fstype="swap" --size=4096 --name=swap --vgname=base
 logvol /var  --fstype="xfs" --size=14856 --label="var" --name=var --vgname=base
 logvol /  --fstype="xfs" --size=10240 --label="root" --name=root --vgname=base
 
+# Accept EULA
+eula --agreed
+
 %packages
 @^minimal
 @core
